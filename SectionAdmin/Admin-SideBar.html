@@ -1,0 +1,62 @@
+<html>
+	<head>
+	  
+	   
+	   <link href="../css/sideBarCSS.css" rel="stylesheet">
+	   <script src="../js/jquery-latest.min.js" type="text/javascript" ></script>
+	   <script src="../js/scriptForSideBar.js" type="text/javascript" ></script>
+	   
+	</head>
+	<body>
+		<div id='cssmenu'>
+		<ul>
+		   <li><a href="AdminHome.php">Home</a></li>
+		   <li class="has-sub"><a href="#">Flight Management</a>
+				<ul>
+					<li><a href="Admin-AddLocation.php">Add New Location</a></li>
+					<li><a href="Admin-AddNewFlight.php">Add New Flight</a></li>
+					<li><a href="Admin-AddFlightRoute.php">Add Flight Route</a></li>
+				</ul>
+		   
+		   </li>
+		   <li class="has-sub"><a href="#">Show Schedule</a>
+				<ul>
+					<li><a href="Admin-ShowSchedule.php">Future Schedule</a></li>
+					<li><a href="Admin-ShowSchedule-Past.php">Past Schedule</a></li>
+				</ul>
+		   
+		   </li>
+		   <li class="has-sub"><a href='#'>Notice</a>
+				<ul>
+					<li><a href="Admin-PostNewNotice.php">Post New Notice</a></li>
+					<li><a href="Admin-NoticeArchive.php">Notice Archive</a></li>
+				</ul>
+		   </li>
+		
+		   <li><a href="Admin-BookInfo.php">Booking Info</a></li>
+			
+			<li><a href="Admin-CreateNewAdmin.php">Create New Admin</a></li>
+			<li class="has-sub"><a href="#">My Account</a>
+				<ul>
+					<li><a id="showModelForm">Update Info</a></li>
+					
+					
+					<li><a id="showModelFormChagePW">Change Password</a></li>
+					
+					
+					<li><a href="Admin-AccountDelete.php" onClick="return confirm('Are you sure to Delete Account?')">Delete Account</a></li>
+				</ul>
+			</li>
+			<li><a href="LogOut.php" onClick="return confirm('Are you sure to Log Out?')" ><i>Log Out</i></a></li>
+		</ul>
+		</div>
+		
+		
+		
+	</div>
+		<!---------------------------------Add Model Form-->
+		<?php include("Admin-ModelForm-UpdateAdminInfo.php");?>
+		<?php include("Admin-ModelForm-UpdateAdminPW.php");?>
+
+	</body>
+</html>

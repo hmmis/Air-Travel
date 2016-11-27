@@ -1,0 +1,161 @@
+body {
+    /*background-image: url("../image/adminBackGround.jpg");*/
+	background-size:cover; /* background area is completely covered by the background image*/
+   /* background-color: #cccccc;*/
+   background-color:#FFFFE0;
+	background-repeat: no-repeat;
+    background-attachment: fixed; /* background image should be fixed (will not scroll with the rest of the page)*/
+}
+
+
+	
+
+.classFooter{
+	margin-bottom:20px;
+	clear:left;
+	//background-color:gray;
+	border:1px solid white;
+	text-align:center;
+	font:bold;
+	//size:;
+	color:#808000;
+	float:bottom;
+	
+}
+.adminHead{
+	display: inline;
+	//background-color:gray;
+	/*border:1px solid black;*/
+	width:83%;
+	float: left;
+	//color:white;
+	//margin-top:10px;
+	margin-left:10px;
+	//font-size:20px;
+	//padding-left:20px;
+	//padding-top:20px;
+	text-align:center;
+	margin-bottom:10px;
+}
+
+.adminPageActivity{
+	display: inline;
+	//background-color:gray;
+	//border:1px solid black;
+	width:60%;
+	float: left;
+	//color:white;
+	//margin-top:10px;
+	margin-left:170px;
+	//font-size:20px;
+	//padding-left:20px;
+	//padding-top:20px;
+	text-align:center;
+	margin-bottom:70px;
+}
+
+/*-----------------------.AdminPostNewNotice*/
+.AdminPostNewNotice p{
+	font-size:20px;
+}
+.AdminPostNewNotice
+input[type=text]
+{
+	width:70%;
+	color:red;
+	font-size:20px;
+	text-align:center;
+}
+.AdminPostNewNotice
+input[type=submit]{
+	background-color: #4CAF50;
+    border: 1px solid red;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+	font-size:20px;
+	width:30%;
+	min-width:150px;
+}
+.AdminPostNewNotice
+input[type=submit]:hover{
+	background-color: red;
+    border: 1px solid #4CAF50;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+	
+}
+.AdminPostNewNotice
+textarea
+{
+	width:90%;
+	max-width:97%;
+	height:250px;
+	font-size:15px;
+}
+.noticeDetails{
+	background-color:#ffffff;
+}
+.noticeDetails h1{
+	color:red;
+}
+
+.noticeDetails p{
+	font-size:20px;
+}
+
+.adminInfo{
+	font-size:20px;
+	text-align:left;
+	padding-left:10px;
+}
+
+/*-----------------------------------------------------------------*/
+.formNewAdmin{
+	text-align:left;
+	padding-top:20px;
+	padding-left:10px;
+	font-size:20px
+}
+.formNewAdmin input[type=text],
+.formNewAdmin input[type=password],
+.formNewAdmin input[type=email],
+.formNewAdmin input[type=number],
+.formNewAdmin select {
+    width: 25%;
+    padding: 6px 10px;
+    //margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+	font-size:18px;
+	min-width:120px;
+	
+}
+
+.formNewAdmin input[type=submit] {
+	
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+
+}
+
+.formNewAdmin input[type=submit]:hover {
+    background-color: #45a049;
+	border:1px solid black;
+}
+.formNewAdmin p{
+	display:inline;
+	color:red;
+	font-size:17px;
+}

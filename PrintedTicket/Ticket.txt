@@ -1,0 +1,12 @@
+Username : shovon 
+Class : Normal 
+TotalSeat : 20 
+CostPerSeat : 1000 
+Total Cost : 20000 
+StartDate : 26-Jun-2016 
+Stoppage : 1 
+StartDay : Sunday 
+StartTime : 22:30 
+Email : mislam543@gmail.com 
+Mobile : 01675955487 
+Passport : 11514 

@@ -1,0 +1,36 @@
+		table {
+			border-collapse: collapse;
+			width: 100%;
+			
+		}
+
+		th, td {
+			text-align: center;
+			padding:2px;
+		}
+
+		tr:nth-child(even){background-color: #f2f2f2}
+		tr:nth-child(odd){background-color: #d6d6c2}
+		th {
+			background-color: #4CAF50;
+			color: white;
+		}
+		
+ a:link, a:visited {
+    background-color: green;
+    color: white;
+    padding: 7px 13px;
+    text-align: center;	
+    text-decoration: none;
+    display: inline-block;
+	border:1px solid black;
+	margin-bottom:10px;
+	
+}
+
+
+a:hover, a:active {
+    background-color: #66ff33;
+	color:black;
+	border-radius: 5px;
+}

@@ -1,0 +1,97 @@
+/*------------------------------------------Search CSS*/
+.HomeSearchForm form{
+	width:30%;
+	
+	
+    //background-color: #f2f2f2;
+	//border:1px solid;
+	//margin:10px 0px;
+	margin-left:25px;
+	margin-top:10px;
+	font-size:20px;
+	padding-left:50px;
+	padding-top:50px;
+	float:left;		/*next new element will come left od form*/
+	min-width:220px;
+	display:inline;
+	background-image: url("../image/img12.jpg");
+	border-radius:5px;
+	
+
+    
+}
+.HomeSearchForm input[type=text],
+.HomeSearchForm select ,
+.LogInForm select {
+    width: 15%;
+    padding: 2px 0px;
+    margin: 0px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+	/*start from absolute left position*/
+	position: absolute;
+    left: 250px;
+}
+
+.HomeSearchForm input[type=submit] {
+    width: 40%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+	font:red;
+}
+
+.HomeSearchForm  input[type=submit]:hover {
+    background-color: #45a049;
+	border:1px solid black;
+}
+
+/*-------------------------Log In Css*/
+.LogInForm form{
+	width:50%;
+    //background-color: #f2f2f2;
+	
+	margin:10px 0px;
+	font-size:20px;
+	padding-left:50px;
+	padding-top:50px;
+	float:left;		/*next new element will come left od form*/
+	min-width:280px;
+	display:inline;
+}
+
+.LogInForm  input[type=password],.LogInForm input[type=text] {
+    width: 25%;
+    padding: 2px 0px;
+    margin: 0px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+	/*start from absolute left position*/
+	position: absolute;
+    left: 200px;
+	
+}
+.LogInForm input[type=submit] {
+	margin-left:10%;
+	width:25%;
+    font-size:15px;
+	min-width:140px;
+}
+
+.LogInForm  input[type=submit]:hover {
+    background-color: #45a049;
+	border:1px solid black;
+}
+.formHeader{
+	font-style:italic;
+	color:blue;
+	 
+	}

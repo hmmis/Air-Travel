@@ -1,0 +1,204 @@
+body {
+    background-image: url("../image/backgroundImage.jpg");
+	margin:10px 10px 10px 10px;
+	background-size:cover; /* background area is completely covered by the background image*/
+   // background-color: #cccccc;
+	background-repeat: no-repeat;
+    background-attachment: fixed; /* background image should be fixed (will not scroll with the rest of the page)*/
+}
+
+div.notice{
+	width:100%;
+	height:20%;
+	background-color:black;
+	border-radius:10px;
+	float:right;
+	display:inline;
+	background-image:url("../image/img4.jpg");
+	color:white;
+	font-style: oblique;
+    border: 3px solid black;
+	text-align:center;
+	margin-bottom:10px;
+}
+.classNoticeBoard{
+	display: inline;
+	background-image:url("../image/img1.jpg");
+	border:1px solid black;
+	width:42%;
+	min-width:220px;
+	float: left;
+	margin-top:10px;
+	margin-left:10px;
+	margin-bottom:10px;
+	font-size:20px;
+	padding-left:20px;
+	padding-right:10px;
+	padding-top:20px;
+	font-style: italic;
+}
+.ResultOfSearch{
+	
+	clear:left;
+	border:1px solid black;
+	border-radius:5px;
+	background:white;
+	//margin:10px 10px 10px 10px;
+	padding:10px 10px 10px 10px;
+}
+
+/* side bar rigt */
+#container {
+    width: 200px;
+	margin-top:20px;
+    margin-left:15px;
+	margin-bottom:10px;
+	border:1px solid black;
+	border-radius:10px;
+	float:left;
+	background-color:#2F4F4F;
+	text-align:center;
+	
+}
+
+	
+.myNoticeArchive a:link, a:visited {
+    background-color: green;
+    color: white;
+    padding: 7px 13px;
+    text-align: center;	
+    text-decoration: none;
+    display: inline-block;
+	border:1px solid black;
+}
+
+
+.myNoticeArchive a:hover, a:active {
+    background-color: #66ff33;
+	color:black;
+}
+		.myNoticeArchive table {
+			border-collapse: collapse;
+			width: 100%;
+		}
+
+		.myNoticeArchive th, .myNoticeArchive td {
+			text-align: center;
+			padding: 8px;
+		}
+
+		.myNoticeArchive tr:nth-child(even){background-color: #f2f2f2}
+		.myNoticeArchive tr:nth-child(odd){background-color: #d6d6c2}
+		.myNoticeArchive th {
+			background-color: #4CAF50;
+			color: white;
+		}
+		
+.myNoticeArchive a:link,.myNoticeArchive a:visited {
+    background-color: green;
+    color: white;
+    padding: 7px 13px;
+    text-align: center;	
+    text-decoration: none;
+    display: inline-block;
+	border:1px solid black;
+	margin-bottom:10px;
+	
+}
+
+
+.myNoticeArchive a:hover,.myNoticeArchive a:active {
+    background-color: #66ff33;
+	color:black;
+	border-radius: 5px;
+}
+
+.classFooter{
+	margin-bottom:20px;
+	clear:left;
+	//background-color:gray;
+	border:0px solid black;
+	text-align:center;
+	font:bold;
+	//size:;
+	color:#808000;
+	float:bottom;
+	
+}
+
+.classAboutUs{
+	margin-top:70px;
+	font-size:20px;
+	text-align:center;
+	color:white;
+	
+}
+.noticeArchive{
+		font-size:20px;
+		margin:20px 20px 20px 20px;
+		color:black;
+}
+.noticeArchiveDetails{
+	font-size:20px;
+	margin:20px 20px 20px 20px;
+	background-color:#ffffff;
+}
+.noticeArchiveDetails h1{
+	color:red;
+	text-align:center;
+}
+.noticeArchiveDetails p{
+	
+	text-align:center;
+}
+#txtHint{
+	//border: 1px solid black;\
+	margin-left:10px;
+	
+}
+.TravelsInformation1{
+	
+	color:black;
+	font-size:20px;
+	display: inline;
+	background-color:white;
+	//background-image:url("../image/img13.jpg");
+	border:px solid black;
+	width:35%;
+	min-width:220px;
+	float: left;
+	margin-top:30px;
+	margin-left:10px;
+	margin-bottom:10px;
+	font-size:20px;
+	padding-left:20px;
+	padding-right:10px;
+	padding-top:20px;
+	font-style: italic;
+}
+.TravelsInformation2{
+	
+	color:black;
+	font-size:20px;
+	display: inline;
+	background-color:white;
+	//background-image:url("../image/img13.jpg");
+	border:px solid black;
+	width:35%;
+	min-width:220px;
+	float: left;
+	margin-top:0px;
+	margin-left:30px;
+	margin-right:0px;
+	margin-bottom:0px;
+	font-size:20px;
+	padding-left:15px;
+	padding-right:10px;
+	padding-top:20px;
+	font-style: italic;
+}
+.sideImage{
+	float:left;
+	color:white;
+	
+}
